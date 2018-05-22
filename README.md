@@ -1,6 +1,6 @@
-# 项目预览
+## 项目概述
 
-得到一个基于 web 的用来读取 rss 源的应用。下载了所有相关文档。
+在这个项目中，您将得到一个基于 web 的应用程序用来读取 rss 源的应用。能够清楚的让你知道测试的价值，因为他们包含了[jasmine](http://jasmine.github.io/)不过他们却并没有完成整个项目，所以接下来我所做的就是要编写这个应用测试代码，然后可以跑起来运行。
 
 ## 项目目的
 
@@ -8,17 +8,27 @@
 
 不管你是在一个推崇测试驱动开发的组织，或者是一个编写测试只是为了防止未来的开发中出现与已有代码冲突的 bug 的团队工作，测试都是我们要掌握的一项重要技能。
 
-# 我如何完成这个项目
+
+## 我学到了什么技能
+
+您将学习如何使用`jasmine`来对预先存在的应用程序编写多个测试。这些测试将测试应用程序的底层业务逻辑以及事件处理和DOM操作。
+
+## 他将对我有什么帮助
+
+编写有效的测试需要分析应用程序的多个方面，包括HTML、CSS和JavaScript——这是改变团队或加入新公司时的一项非常重要的技能。
+良好的测试使您有能力快速分析新代码是否破坏了代码库中现有的功能，而不必手动测试所有功能，对，就是如此。
+
+## 我将如何完成这个项目
 
 查看订阅阅读器项目的[评审标准](https://review.udacity.com/#!/rubrics/502/view)
 
-1.上一下 javascript Testing [课程](https://www.udacity.com/course/ud549)  
+1.查看必要的 javascript Testing [课程](https://www.udacity.com/course/ud549)  
 2.下载必要的[项目资源](http://github.com/udacity/frontend-nanodegree-feedreader)  
 3.在浏览器里面查看一下应用的功能  
 4.查看项目的 HTMl (**./index.html**), CSS (**./css/style.css**) 和 JavaScript (**./js/app.js**) 文件来对项目的工作原理有一个基本的了解。  
 5.查看 Jasmine spec 文件 ./jasmine/spec/feedreader.js 然后翻阅阅读 [Jasmine 文档](http://jasmine.github.io/)。  
 6.编辑 **./js/app.js **里面的 `allFeeds` 变量使给出的测试通不过，然后观察Jasmine是怎么展示你应用的错误信息的。将 `allFeeds` 变量复原  
-7.编写一个测试遍历 allFeeds 对象里面的所有的源来保证有链接字段而且链接不是空的。  
+7.将 allFeeds 变量返回到传递状态。  
 8.编写一个测试遍历 allFeeds 对象里面的所有的源来保证有名字字段而且不是空的。  
 9.写一个叫做`"The menu"`的测试用例  
 10.写一个测试用例保证菜单元素默认是隐藏的。你需要分析 html 和 css 来搞清楚我们是怎么实现隐藏/展示菜单元素的。  
